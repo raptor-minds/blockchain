@@ -1,5 +1,8 @@
 import java.util.Arrays;
 
+/**
+ * UTXO denotes unspent transaction output
+ */
 public class UTXO implements Comparable<UTXO> {
 
     /** Hash of the transaction from which this UTXO originates */
