@@ -42,6 +42,7 @@ public class UTXOPool {
         return H.containsKey(utxo);
     }
 
+
     /** Returns an {@code ArrayList} of all UTXOs in the pool */
     public ArrayList<UTXO> getAllUTXO() {
         Set<UTXO> setUTXO = H.keySet();
